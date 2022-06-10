@@ -20,9 +20,9 @@ def fib(n):
         return f
 
 
+print(fib(995))
 t2 = dt.datetime.now()
-print(fib(100))
-print(t2 - t1)
+print((t2 - t1).seconds)
 
 # Bottom_Up DP algorithm
 fib = {}
@@ -39,6 +39,6 @@ def fib2(n):
     return fib[n]
 
 
+print(fib2(30))
 t2 = dt.datetime.now()
-print(fib2(100))
-print(t2 - t1)
+print((t2 - t1).seconds)
