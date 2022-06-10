@@ -34,11 +34,11 @@ def fib2(n):
         if k <= 2:
             f = 1
         else:
-            f = fib2(k-2) + fib2(k-1)
+            f = fib[k-2] + fib[k-1]
         fib[k] = f
     return fib[n]
 
 
-print(fib2(30))
+print(fib2(995))
 t2 = dt.datetime.now()
 print((t2 - t1).seconds)
