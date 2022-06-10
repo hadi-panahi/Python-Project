@@ -3,6 +3,23 @@
 
 import datetime as dt
 
+t1 = dt.datetime.now()
+
+
+def fib(n):
+    if n <= 2:
+        f = 1
+    else:
+        f = fib(n-2) + fib(n-1)
+    return f
+
+
+print(fib(30))
+t2 = dt.datetime.now()
+print((t2 - t1).microseconds)
+
+# DP Recursive Algorithm
+
 memo = {}
 t1 = dt.datetime.now()
 
@@ -22,7 +39,7 @@ def fib(n):
 
 print(fib(995))
 t2 = dt.datetime.now()
-print((t2 - t1).seconds)
+print((t2 - t1).microseconds)
 
 # Bottom_Up DP algorithm
 fib = {}
@@ -41,4 +58,4 @@ def fib2(n):
 
 print(fib2(995))
 t2 = dt.datetime.now()
-print((t2 - t1).seconds)
+print((t2 - t1).microseconds)
