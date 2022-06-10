@@ -1,7 +1,6 @@
 """
-This script was developed by Miguel Herraez
-TecnoDigital School
-For more information visit: https://tecnodigitalschool.com/course-abaqus-scripting/
+This script was developed by Hadi Panahi
+
 """
 
 
