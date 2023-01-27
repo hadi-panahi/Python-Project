@@ -3,7 +3,7 @@
 I have provided the basics of machine learning with comprehensive Jupyter notebooks. From simple linear regression to advanced deep learning techniques, these notebooks cover all the fundamental concepts and techniques of machine learning. Code examples and explanations are provided for each topic, making it easy for anyone to understand and implement.
 ## Outline
 - [&nbsp;&nbsp;1.1 Goals](#toc_40015_1.1)
-- [&nbsp;&nbsp;1.3 Notation](#toc_15456_1.3)
+- [&nbsp;&nbsp;1.2 Notation](#toc_15456_1.2)
 
 <a name="toc_40015_1.1"></a>
 ## 1.1 Goals
