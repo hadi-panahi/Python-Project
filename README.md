@@ -7,7 +7,8 @@ I have provided the basics of machine learning with comprehensive Jupyter notebo
 
 <a name="toc_40015_1.1"></a>
 ## 1.1 Goals
-These notebooks are the perfect resource for solidifying your machine learning skills.
+These notebooks are the perfect resource for solidifying your machine learning skills, data structures and algorithms.
+
 
 
 
